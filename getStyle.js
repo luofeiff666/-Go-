@@ -9,3 +9,4 @@ function getStyle(obj, name) {
         return getComputedStyle(obj, false) [name];
     }
 }
+moulde.expand=getStyle;//模版 代码可能写错了
