@@ -429,6 +429,7 @@ app.EventUtil = {
         }
         function tabP(now) {
             li[now].style.zIndex = nowZIndex++;//每执行一次自增一次
+            li[now].style.filter = 'alpha(opacity=' + 0 + ')';//IE下
             li[now].style.opacity = 0;//淡入0-1
             util.getMove(li[now], {opacity: 100}, 100);//每5ms调用一次 速度是1 从0-100  100次  用时500ms
             for (var i = 0; i < coin.length; i++) {
