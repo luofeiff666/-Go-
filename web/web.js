@@ -15,6 +15,7 @@ app.util = {
     _$: function (selector, node) {
         return (node || document).querySelectorAll(selector);
     },
+    //创建元素添加属性
     $$: function (node, cName, value, Ihtml) {
         var elem = document.createElement(node);
         for (var i = 0; i < cName.length; i++) {
@@ -23,10 +24,6 @@ app.util = {
         if (Ihtml) {
             elem.innerHTML = Ihtml;
         }
-
-        /* else {
-             elem.setAttribute(cName, value);
-         }*/
         return elem;
     },
 
