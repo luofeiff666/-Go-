@@ -15,6 +15,20 @@ app.util = {
     _$: function (selector, node) {
         return (node || document).querySelectorAll(selector);
     },
+    $$: function (node, cName, value, Ihtml) {
+        var elem = document.createElement(node);
+        for (var i = 0; i < cName.length; i++) {
+            elem.setAttribute(cName[i], value[i]);
+        }
+        if (Ihtml) {
+            elem.innerHTML = Ihtml;
+        }
+
+        /* else {
+             elem.setAttribute(cName, value);
+         }*/
+        return elem;
+    },
 
     //设置cookie
     setCookie: function (name, value, expires, path, domain, secure) {
@@ -150,6 +164,7 @@ app.util = {
         if (obj.async === false) {
             callback();
         }
+
         function callback() {
             if (xhr.status == 200) {
                 obj.success(xhr.responseText);			//回调传递参数
@@ -240,6 +255,7 @@ app.EventUtil = {
             nav_af.style.display = "none";
             nav_afOk.style.display = "block";
         }
+
         //登录数据处理
         function loCation() {
             var userName = $('.l-text'),//帐号框
@@ -257,6 +273,7 @@ app.EventUtil = {
 
                 //失去焦点判断帐号格式以及是否允许登陆
                 EventUtil.addHandler(userName, 'blur', onBlur);
+
                 function onBlur() {
                     var getName = userName.value,
                         pattern = /^[\w]+(@[\w]+\.)?[\w]+$/;
@@ -278,6 +295,7 @@ app.EventUtil = {
 
                 //鼠标按下时清空内容以及提示信息
                 EventUtil.addHandler(userName, 'mousedown', onMDN);
+
                 function onMDN() {
                     userName.value = "";
                     userName.style.borderColor = '#CCC';
@@ -286,6 +304,7 @@ app.EventUtil = {
 
                 //鼠标按下时清空内容以及提示信息
                 EventUtil.addHandler(password, 'mousedown', onMDP);
+
                 function onMDP() {
                     password.value = "";
                     password.style.borderColor = '#CCC';
@@ -309,6 +328,7 @@ app.EventUtil = {
                                 password: md5_password//
                             };
                         getLocation(data_l);
+
                         function getLocation(data) {
                             util.ajax({
                                 method: 'get',
@@ -362,6 +382,7 @@ app.EventUtil = {
             //禁用鼠标滚动条
             (function () {
                 disabledMouseWheel();
+
                 function disabledMouseWheel() {
                     if (document.addEventListener) {
                         document.addEventListener('DOMMouseScroll', scrollFunc, false);
@@ -392,11 +413,13 @@ app.EventUtil = {
 
         //关闭登录浮层
         EventUtil.addHandler(l_close, 'click', markClose);
+
         function markClose() {
             l_mark.style.display = 'none';//关闭
             //启用鼠标滚动条
             (function () {
                 disabledMouseWheel();
+
                 function disabledMouseWheel() {
                     if (document.addEventListener) {
                         document.addEventListener('DOMMouseScroll', scrollFunc, false);
@@ -427,6 +450,7 @@ app.EventUtil = {
                 tabP(now);//调用切换函数
             });
         }
+
         function tabP(now) {
             li[now].style.zIndex = nowZIndex++;//每执行一次自增一次
             li[now].style.filter = 'alpha(opacity=' + 0 + ')';//IE下
@@ -466,6 +490,7 @@ app.EventUtil = {
         };
         //获取课程
         getClass(size);
+
         function getClass(size) {
             util.ajax({
                 method: 'get',
@@ -492,61 +517,33 @@ app.EventUtil = {
             }
             var _data = JSON.parse(data);
             for (i = 0; i < _data.list.length; i++) {
-                var oLi = document.createElement("li"),
-                    small = document.createElement("div"),
-                    big = document.createElement("div"),
-                    big_top = document.createElement("div");
-                //创建小卡
-                var _img = document.createElement('img'),
-                    _name = document.createElement('p'),
-                    _price = document.createElement('span'),
-                    _provider = document.createElement('span'),
-                    _learnerCount = document.createElement('div');
-                //设置属性
-                oLi.setAttribute('id', _data.list[i].id);
-                small.setAttribute("class", "small");
-                _img.setAttribute("class", "middlePhotoUrl");//中图
-                _name.setAttribute("class", "name");//名字
-                _price.setAttribute("class", "price");//价格
-                _provider.setAttribute("class", "provider");
-                _learnerCount.setAttribute("class", "learnerCount");
-                _img.setAttribute("src", _data.list[i].bigPhotoUrl);
+                var oLi = util.$$('li', ["id"], [_data.list[i].id]);
 
-                //大卡providerLink
-                big.setAttribute("class", "big");
-                big_top.setAttribute("class", "big_top");
-                var _img_big = document.createElement('img'),
-                    _a_big = document.createElement('a'),
-                    _h3name = document.createElement('h3'),
-                    big_top_s = document.createElement('span'),
-                    provider_big = document.createElement('span'),
-                    categoryName = document.createElement('span'),
-                    _description = document.createElement('p');
+                //创建小卡//设置属性
+                var small = util.$$('div', ["class"], ['small']);
+                var _img = util.$$('img', ["class", "src"], ["middlePhotoUrl", _data.list[i].bigPhotoUrl]);
+                var _name = util.$$('p', ["class"], ["name"], _data.list[i].name);
 
-                _a_big.setAttribute("href", _data.list[i].providerLink);
-                _img_big.setAttribute("class", "bigPhotoUrl");//大图
-                _img_big.setAttribute("src", _data.list[i].bigPhotoUrl);
-                _h3name.setAttribute("class", "name");//大图
-                big_top_s.setAttribute("class", "big_top_s learnerCount");//
-                categoryName.setAttribute("class", "categoryName");//
-                _description.setAttribute("class", "description");//
-                provider_big.setAttribute("class", "provider_big");//
-
-
-                _name.innerHTML = _data.list[i].name;
+                var _price = util.$$('span', ["class"], ["price"]);
                 if (_data.list[i].price === 0) {//判断免费还是咋滴收费 出现不同样式
                     _price.innerHTML = '免费学习';
                     _price.style.color = '#39a030';
                 } else {
                     _price.innerHTML = "￥ " + _data.list[i].price;//如果0元显示免费
                 }
-                _description.innerHTML = _data.list[i].description;
-                _provider.innerHTML = _data.list[i].provider;
-                _learnerCount.innerHTML = _data.list[i].learnerCount;
-                _h3name.innerHTML = _data.list[i].name;
-                big_top_s.innerHTML = _data.list[i].learnerCount + '人在学';
-                categoryName.innerHTML = '要&nbsp;&nbsp;&nbsp;&nbsp;求: ' + _data.list[i].targetUser;
-                provider_big.innerHTML = '发布者: ' + _data.list[i].provider;
+                var _provider = util.$$('span', ["class"], ["provider"], _data.list[i].provider);
+                var _learnerCount = util.$$('div', ["class"], ["learnerCount"], _data.list[i].learnerCount);
+
+                //大卡providerLink
+                var big = util.$$('div', ["class"], ['big']);
+                var big_top = util.$$('div', ["class"], ['big_top']);
+                var _img_big = util.$$('img', ["class", "src"], ["bigPhotoUrl", _data.list[i].bigPhotoUrl]);
+                var _a_big = util.$$('a', ["href"], [_data.list[i].providerLink]);
+                var _h3name = util.$$('h3', ["class"], ['name'], _data.list[i].name);
+                var big_top_s = util.$$('span', ["class"], ['big_top_s learnerCount'], _data.list[i].learnerCount + '人在学');
+                var provider_big = util.$$('span', ["class"], ['provider_big'], '发布者: ' + _data.list[i].provider);
+                var categoryName = util.$$('span', ["class"], ['categoryName'], '要&nbsp;&nbsp;&nbsp;&nbsp;求: ' + _data.list[i].targetUser);
+                var _description = util.$$('p', ["class"], ['description'], _data.list[i].description);
 
                 //添加
                 small.appendChild(_img);
@@ -612,6 +609,7 @@ app.EventUtil = {
 
         //设置页码标记
         setColor(size, nowIndex);
+
         function setColor(size, nowIndex) {
             for (var i = 0; i < buttonPage.length; i++) {
                 buttonPage[i].style.color = '';
@@ -620,6 +618,7 @@ app.EventUtil = {
             size.x = (parseInt(nowIndex) + 1).toString();
             getClass(size);
             aBtnMove(size);
+
             //翻页按钮
             function aBtnMove(size) {
                 var aBtnPrev = $('.le'),
@@ -674,21 +673,12 @@ app.EventUtil = {
                     _data = JSON.parse(data);
                 for (var i = 0; i < _data.length; i++) {
                     //创建元素
-                    var s_li = document.createElement('li'),
-                        s_a = document.createElement('a'),
-                        s_img = document.createElement('img'),
-                        s_name = document.createElement('h3'),
-                        s_learnerCount = document.createElement('span');
-                    //改变元素属性
-                    s_li.setAttribute('id', _data[i].id);
-                    s_a.setAttribute('href', _data[i].providerLink);
-                    s_img.setAttribute('src', _data[i].smallPhotoUrl);
-                    s_img.setAttribute('class', 'smallPhotoUrl');
-                    s_name.setAttribute('class', 'name');
-                    s_learnerCount.setAttribute('class', 'learnerCount');
+                    var s_li = util.$$('li', ["id"], [_data[i].id]),
+                        s_a = util.$$('a', ["href"], [_data[i].providerLink]),
+                        s_img = util.$$('img', ["src", "class"], [_data[i].smallPhotoUrl, 'smallPhotoUrl']),
+                        s_name = util.$$('h3', ["class"], ['name'], _data[i].name),
+                        s_learnerCount = util.$$('span', ["class"], ['learnerCount'], _data[i].learnerCount);
 
-                    s_name.innerHTML = _data[i].name;
-                    s_learnerCount.innerHTML = _data[i].learnerCount;
                     //添加到父级
                     s_a.appendChild(s_img);
                     s_a.appendChild(s_name);
@@ -712,6 +702,7 @@ app.EventUtil = {
                     EventUtil.addHandler(sec_ul, 'mouseout', function () {
                         timer = setInterval(getMoveLi, 5000);
                     });
+
                     function getMoveLi() {
                         topC -= 70;
                         if (topC === -1470) {

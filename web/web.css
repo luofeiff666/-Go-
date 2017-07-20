@@ -272,13 +272,16 @@ span.active {
 /*轮播图结束*/
 
 /*学校展示区开始*/
-.scl {
-    width: 1285px;
+.article{
+    width: 1205px;
+    overflow: hidden;
     position: relative;
     left: 50%;
-    margin-left: -604px;
+    margin-left: -602px;
+}
+.scl {
+    width: 1285px;
     padding: 61px 0 0 0;
-    margin-right: -80px;
 }
 
 .scl .scl_ {

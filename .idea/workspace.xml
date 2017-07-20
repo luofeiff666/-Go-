@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9b81ed67-98c9-4355-ae96-367e754d0373" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/demo2.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/2017.04.23.html" afterPath="$PROJECT_DIR$/web/2017.04.23.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web.css" afterPath="$PROJECT_DIR$/web/web.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web.js" afterPath="$PROJECT_DIR$/web/web.js" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="web.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/web.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="860">
+              <caret line="535" column="0" lean-forward="true" selection-start-line="535" selection-start-column="0" selection-end-line="535" selection-end-column="0" />
+              <folding>
+                <element signature="e#801#1269#0" expanded="false" />
+                <element signature="e#1318#1822#0" expanded="false" />
+                <element signature="e#1873#1926#0" expanded="false" />
+                <element signature="e#1992#3439#0" expanded="false" />
+                <element signature="e#3480#5600#0" expanded="false" />
+                <element signature="e#5630#7019#0" expanded="false" />
+                <element signature="e#7130#7567#0" expanded="false" />
+                <element signature="e#7600#15564#0" expanded="false" />
+                <element signature="e#8008#14344#0" expanded="false" />
+                <element signature="e#8316#13806#0" expanded="false" />
+                <element signature="e#10324#13792#0" expanded="false" />
+                <element signature="e#11765#13752#0" expanded="false" />
+                <element signature="e#13994#14105#0" expanded="false" />
+                <element signature="e#14447#14858#0" expanded="false" />
+                <element signature="e#14970#15558#0" expanded="false" />
+                <element signature="e#15855#16245#0" expanded="false" />
+                <element signature="e#16274#16728#0" expanded="false" />
+                <element signature="e#16787#17238#0" expanded="false" />
+                <element signature="e#17328#17408#0" expanded="false" />
+                <element signature="e#17482#17949#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017.04.23.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/2017.04.23.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="18" />
+              <folding>
+                <element signature="n#script#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#article#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#article#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#div#0;n#article#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/web.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="912" column="12" lean-forward="false" selection-start-line="912" selection-start-column="12" selection-end-line="912" selection-end-column="12" />
+              <folding>
+                <element signature="e#13883#14060#0" expanded="false" />
+                <element signature="e#14069#14232#0" expanded="false" />
+                <element signature="e#14244#14420#0" expanded="false" />
+                <element signature="e#14432#14518#0" expanded="false" />
+                <element signature="e#14527#14762#0" expanded="false" />
+                <element signature="e#14776#14801#0" expanded="false" />
+                <element signature="e#14816#14891#0" expanded="false" />
+                <element signature="e#14902#14947#0" expanded="false" />
+                <element signature="e#14966#14988#0" expanded="false" />
+                <element signature="e#15000#15184#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>scl</find>
+      <find>l-mark</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/web.css" />
+        <option value="$PROJECT_DIR$/web/2017.04.23.html" />
+        <option value="$PROJECT_DIR$/web/web.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="51" />
+    <option name="y" value="-11" />
+    <option name="width" value="1520" />
+    <option name="height" value="884" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="demo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="demo2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="demo2" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b81ed67-98c9-4355-ae96-367e754d0373" name="Default" comment="" />
+      <created>1500549576331</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1500549576331</updated>
+      <workItem from="1500549577868" duration="5755000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5755000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="51" y="-11" width="1520" height="884" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24844721" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/web.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="912" column="12" lean-forward="false" selection-start-line="912" selection-start-column="12" selection-end-line="912" selection-end-column="12" />
+          <folding>
+            <element signature="e#13883#14060#0" expanded="false" />
+            <element signature="e#14069#14232#0" expanded="false" />
+            <element signature="e#14244#14420#0" expanded="false" />
+            <element signature="e#14432#14518#0" expanded="false" />
+            <element signature="e#14527#14762#0" expanded="false" />
+            <element signature="e#14776#14801#0" expanded="false" />
+            <element signature="e#14816#14891#0" expanded="false" />
+            <element signature="e#14902#14947#0" expanded="false" />
+            <element signature="e#14966#14988#0" expanded="false" />
+            <element signature="e#15000#15184#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/2017.04.23.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="n#script#0;n#head#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#0;n#article#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#article#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#0;n#article#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/web.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="535" column="0" lean-forward="true" selection-start-line="535" selection-start-column="0" selection-end-line="535" selection-end-column="0" />
+          <folding>
+            <element signature="e#801#1269#0" expanded="false" />
+            <element signature="e#1318#1822#0" expanded="false" />
+            <element signature="e#1873#1926#0" expanded="false" />
+            <element signature="e#1992#3439#0" expanded="false" />
+            <element signature="e#3480#5600#0" expanded="false" />
+            <element signature="e#5630#7019#0" expanded="false" />
+            <element signature="e#7130#7567#0" expanded="false" />
+            <element signature="e#7600#15564#0" expanded="false" />
+            <element signature="e#8008#14344#0" expanded="false" />
+            <element signature="e#8316#13806#0" expanded="false" />
+            <element signature="e#10324#13792#0" expanded="false" />
+            <element signature="e#11765#13752#0" expanded="false" />
+            <element signature="e#13994#14105#0" expanded="false" />
+            <element signature="e#14447#14858#0" expanded="false" />
+            <element signature="e#14970#15558#0" expanded="false" />
+            <element signature="e#15855#16245#0" expanded="false" />
+            <element signature="e#16274#16728#0" expanded="false" />
+            <element signature="e#16787#17238#0" expanded="false" />
+            <element signature="e#17328#17408#0" expanded="false" />
+            <element signature="e#17482#17949#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
