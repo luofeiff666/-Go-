@@ -263,6 +263,7 @@ app.EventUtil = {
                 nav_af.style.display = "none";
                 nav_afOk.style.display = "block";
             } else {
+                l_mark.style.width = Math.max(document.body.scrollWidth, document.documentElement.scrollWidth) + "px";
                 l_mark.style.display = 'block';//登录//如果已有帐号密码直接登录 变成以关注
                 var l_button = $('.l-button'),//登录按钮
                     l_nameTitle = $('.l-nameTitle');//帐号提示信息
