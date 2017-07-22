@@ -18,14 +18,14 @@
         <entry file="file://$PROJECT_DIR$/web.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="266" column="71" lean-forward="false" selection-start-line="266" selection-start-column="71" selection-end-line="266" selection-end-column="71" />
+              <caret line="266" column="119" lean-forward="false" selection-start-line="266" selection-start-column="119" selection-end-line="266" selection-end-column="119" />
               <folding>
                 <element signature="e#115#5539#0" expanded="false" />
                 <element signature="e#5567#6956#0" expanded="false" />
                 <element signature="e#7067#7504#0" expanded="false" />
-                <element signature="e#15653#17328#0" expanded="false" />
-                <element signature="e#17363#23699#0" expanded="false" />
-                <element signature="e#24562#26635#0" expanded="false" />
+                <element signature="e#15775#17450#0" expanded="false" />
+                <element signature="e#17485#23821#0" expanded="false" />
+                <element signature="e#24684#26757#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -34,8 +34,8 @@
       <file leaf-file-name="web.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="863" column="1" lean-forward="false" selection-start-line="863" selection-start-column="1" selection-end-line="864" selection-end-column="17" />
+            <state relative-caret-position="391">
+              <caret line="867" column="14" lean-forward="true" selection-start-line="867" selection-start-column="14" selection-end-line="867" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="2017.04.23.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2017.04.23.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
+            <state relative-caret-position="-196">
               <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="18" />
               <folding>
                 <element signature="n#script#0;n#head#0;n#html#0;n#!!top" expanded="false" />
@@ -65,9 +65,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web.css" />
         <option value="$PROJECT_DIR$/2017.04.23.html" />
         <option value="$PROJECT_DIR$/web.js" />
+        <option value="$PROJECT_DIR$/web.css" />
       </list>
     </option>
   </component>
@@ -148,12 +148,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1500724804512</updated>
-      <workItem from="1500724805906" duration="521000" />
+      <workItem from="1500724805906" duration="1131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="521000" />
+    <option name="totallyTimeSpent" value="1131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="262" y="-7" width="1113" height="863" extended-state="1" />
@@ -188,32 +188,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="863" column="1" lean-forward="false" selection-start-line="863" selection-start-column="1" selection-end-line="864" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="266" column="71" lean-forward="false" selection-start-line="266" selection-start-column="71" selection-end-line="266" selection-end-column="71" />
+          <caret line="266" column="119" lean-forward="false" selection-start-line="266" selection-start-column="119" selection-end-line="266" selection-end-column="119" />
           <folding>
             <element signature="e#115#5539#0" expanded="false" />
             <element signature="e#5567#6956#0" expanded="false" />
             <element signature="e#7067#7504#0" expanded="false" />
-            <element signature="e#15653#17328#0" expanded="false" />
-            <element signature="e#17363#23699#0" expanded="false" />
-            <element signature="e#24562#26635#0" expanded="false" />
+            <element signature="e#15775#17450#0" expanded="false" />
+            <element signature="e#17485#23821#0" expanded="false" />
+            <element signature="e#24684#26757#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="867" column="14" lean-forward="true" selection-start-line="867" selection-start-column="14" selection-end-line="867" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2017.04.23.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
+        <state relative-caret-position="-196">
           <caret line="32" column="18" lean-forward="false" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="18" />
           <folding>
             <element signature="n#script#0;n#head#0;n#html#0;n#!!top" expanded="false" />
