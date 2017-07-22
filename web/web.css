@@ -2,7 +2,7 @@
 * Created by AC on 2017/4/21.
 */
 
-html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea,article, aside, dialog, footer, header, section, footer, nav, figure, menu {
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, article, aside, dialog, footer, header, section, footer, nav, figure, menu {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -56,9 +56,7 @@ body {
 }
 
 .t-right {
-    position: absolute;
-    right: 0;
-    top: 0;
+    float: right;
     line-height: 12px;
     display: block;
 }
@@ -274,13 +272,14 @@ span.active {
 /*轮播图结束*/
 
 /*学校展示区开始*/
-.article{
+.article {
     width: 1205px;
     overflow: hidden;
     position: relative;
     left: 50%;
     margin-left: -602px;
 }
+
 .scl {
     width: 1285px;
     padding: 61px 0 0 0;
@@ -600,10 +599,9 @@ span.active {
     font-family: "微软雅黑", sans-serif;
     font-size: 14px;
     color: #666;
-    width: 320px;
     position: absolute;
     bottom: 0;
-    right: 0;
+    right: 15px;
 }
 
 .sec_art_s_button:after {
@@ -645,7 +643,8 @@ span.active {
     background: #9dd8b1 url("image/spirit.png") no-repeat -263px -144px;
 }
 
-/*内容区导航按钮开始*/
+/*内容区导航按钮结束*/
+
 /*主内容区结束*/
 
 /*侧边栏开始*/
@@ -697,7 +696,7 @@ span.active {
 
 .sec_asi_sec_hot {
     padding: 15px 0 0 20px;
-    height: 715px;
+    height: 505px;
     overflow: hidden;
     position: relative;
 }
@@ -766,7 +765,6 @@ span.active {
 .footer1 {
     width: 950px;
     margin: 0 auto;
-    position: relative;
 }
 
 .footer1:after {
@@ -802,14 +800,11 @@ span.active {
 
 .footer .footer_link {
     width: 42.7%;
-    position: absolute;
-    top: 0;
-    right: 0;
+    float: right;
 }
 
 .footer .footer_link ul {
-    vertical-align: top;
-    display: inline-block;
+    float: left;
     color: #fff;
 }
 

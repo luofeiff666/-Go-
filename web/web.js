@@ -485,7 +485,7 @@ app.EventUtil = {
         var size = {//记录请求数据
             x: "1",
             y: "10",
-            z: "16"
+            z: "12"
         };
         //获取课程
         getClass(size);
@@ -564,6 +564,14 @@ app.EventUtil = {
                 oLi.appendChild(big);
                 oUl.appendChild(oLi);
             }
+            //创建页码
+    /*        var page=_data.totalPage;
+            var sec_art_s_button=$('.sec_art_s_button');
+            var buttonri=$('.ri');
+            for(var l=0;l<page;l++){
+                var li = util.$$('span', ["class"], ["button"], page-l);
+                sec_art_s_button.insertBefore(li,buttonri)
+            }*/
         }
 
         //tab课程分类区
@@ -633,7 +641,7 @@ app.EventUtil = {
                 aBtnNext.onclick = function () {
                     nowIndex++;
                     if (nowIndex === buttonPage.length) {//下翻
-                        nowIndex = 7;
+                        nowIndex = 4;
                     }
                     setColor(size, nowIndex);
                 };
