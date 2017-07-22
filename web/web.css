@@ -56,7 +56,9 @@ body {
 }
 
 .t-right {
-    float: right;
+    position: absolute;
+    right: 0;
+    top: 0;
     line-height: 12px;
     display: block;
 }
@@ -764,6 +766,7 @@ span.active {
 .footer1 {
     width: 950px;
     margin: 0 auto;
+    position: relative;
 }
 
 .footer1:after {
@@ -777,8 +780,6 @@ span.active {
 .footer .footer_l {
     width: 394px;
     float: left;
-    margin-right: 150px;
-
 }
 
 .footer .footer_l h3 {
@@ -801,11 +802,14 @@ span.active {
 
 .footer .footer_link {
     width: 42.7%;
-    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 .footer .footer_link ul {
-    float: left;
+    vertical-align: top;
+    display: inline-block;
     color: #fff;
 }
 
